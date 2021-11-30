@@ -2,9 +2,11 @@
 title: "Vitenskapsfilosofi"
 author: "Kristoffer Solum"
 date: "30 11 2021"
-output: html_document
-editor_options: 
-  markdown: 
+output:
+  word_document: default
+  html_document: default
+editor_options:
+  markdown:
     wrap: sentence
 bibliography: references.bib
 ---
