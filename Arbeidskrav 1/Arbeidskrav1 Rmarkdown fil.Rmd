@@ -35,7 +35,7 @@ Alle statistiske beregninger ble gjort i RStudio (versjon RStudio 1.4.1717; R Fo
 library(readxl)
 library(tidyverse)
 # Legger inn datasett fra excel
-Dat <- read_excel("Data/vo2maksTest.xlsx") %>%
+Dat <- read_excel("Arbeidskrav 1/Data/vo2maksTest.xlsx") %>%
   mutate(diff = test2 - test1) %>%
   # Regner ut prosentvis endring med sd
   summarise(s = sd(diff),
@@ -68,7 +68,7 @@ library(tidyverse)
 library(readxl)
 
 
-ark3 <- read_excel("Data/vo2maksTestark2.xlsx")
+ark3 <- read_excel("Arbeidskrav 1/Data/vo2maksTestark2.xlsx")
 
 
 ark3
